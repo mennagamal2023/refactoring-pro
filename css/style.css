@@ -1,0 +1,49 @@
+
+/*  1- GERERAL STYLES
+    2- SECTIONS  
+      2.1  HEADER
+      2.2 card
+      2.3 sidebar 
+      2.4 FOOTER SECTION
+ */
+/* 1-GERERAL STYLES /////////////////////// */
+body {
+    font-family: 'Arials', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+/* scollup ////////////////////////*/
+.scroll-up{
+    width: 25px;
+    height: 25px; 
+}
+/* 2.1  HEADER /////////////////////////////////////////// */
+.nav-item  .nav-link:hover {
+    text-decoration: underline;
+} 
+/* 2.2 card /////////////////////////  */
+.card-body {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease , box-shadow 0.3s ease;
+}
+.card-body:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card-body .btn-primary:hover {
+    background-color: #0056b3;
+}
+/* 2.3 sidebar /////////////////////////////// */
+.sidebar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.sidebar ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+    
